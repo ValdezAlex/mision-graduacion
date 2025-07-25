@@ -24,7 +24,7 @@
 			<div class="inner-container">
 				<img class="site-icon-header" src="<?php site_icon_url(); ?>"> 
 				<a href="<?php bloginfo( 'url' ); ?>" class="text-header" aria-label="Ir a la sección de inicio del sitio">
-					Misión Graduación 
+					
 				</a>
 
 <?php alt_custom_theme_print_menu( 'header' ); ?>
