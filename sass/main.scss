@@ -1,0 +1,38 @@
+/**
+ * Main Styles for theme.
+ */
+
+// sass --watch main.scss ../style.min.css --style=compressed
+// sass main.scss ../style.min.css --style=compressed
+
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+
+/* Colors */
+$theme-yellow: #FFE700;
+$theme-green: #A1DA45;
+$theme-pink: #FF3FBF;
+$theme-cyan: #3AEBC8;
+$theme-orange: #FF6B00;
+$theme-black: #020917;
+
+/* Tipografias */
+$theme-title-font: 'Cooper Black', regular;
+$theme-main-font: 'Nunito Sans', regular;
+$theme-main-title-font: 'Nunito Sans', bold;
+$theme-form-font: 'Nunito Sans', italic;
+
+// $theme-main-font: 'Poppins', sans-serif;
+
+$img-directory: "img/";
+
+//@import 'normalize';
+@import 'mixins';
+//@import 'fonts';
+//@import 'skeleton';
+//@import 'body-changes';
+@import 'header';
+//@import 'footer';
+//@import 'pages';
+//@import 'single';
+//@import 'home';
