@@ -23,12 +23,13 @@
 		<header class="main-theme-header">
 			<div class="inner-container">
 				<a href="<?php bloginfo( 'url' ); ?>" class="site-icon" aria-label="Ir a la sección de inicio del sitio">
-					<img class="logo-icon" src="<?php site_icon_url(); ?>"> <span class="logo-text">Misión Graduación</span>
+					<img class="logo-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo.svg" alt="Logo">
+					<span class="logo-text">Misión Graduación</span>
 				</a>
 <?php alt_custom_theme_print_menu( 'header' ); ?>
 				<button id="hamburger-menu-toggler">
 					<div class="bar"></div>
-					<div class="bar"></div>
+					<div class="bar-space"></div>
 					<div class="bar"></div>
 				</button>
 				<div id="hamburger-menu-container">

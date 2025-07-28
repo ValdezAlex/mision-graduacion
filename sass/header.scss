@@ -24,7 +24,8 @@ header {
 			}
 
 			.logo-text {
-				margin-left: 76px;
+				//display: block;
+				//margin-left: 76px;
 				//padding-left: 76px;
 				padding-top: 25px;
 				size: 32px;
@@ -207,14 +208,14 @@ header {
 
 		#hamburger-menu-toggler {
 			position: fixed;
-			top: 16px;
+			top: 31px;
 			right: 16px;
 			border-style: none;
 			background-color: transparent;
 			outline: none;
 			cursor: pointer;
-			height: 14px;
-			width: 28px;
+			height: 18px;
+			width: 36px;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
@@ -223,16 +224,33 @@ header {
 			z-index: 6;
 
 			@include media-desktop {
-				display: none;
+				display: inline;
+
+
+			// 	.bar {
+			// 		background-color: $theme-black;
+			// 		height: 2px;
+			// 		width: 100%;
+			// 		opacity: 1;
+			// 		transition: all 0.3s ease-in-out;
+			// 		-webkit-transition: all 0.3s ease-in-out;
+			// }
 			}
 
 			.bar {
-				background-color: #fff;
-				height: 2px;
-				width: 100%;
+				background-color: $theme-orange;
+
+				height: 6px;
+				width: 36px;
+				border-radius: 4px;
 				opacity: 1;
 				transition: all 0.3s ease-in-out;
 				-webkit-transition: all 0.3s ease-in-out;
+			}
+
+			.bar-space {
+				height: 6px;
+				width: 36px;
 			}
 		}
 
