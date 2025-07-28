@@ -16,12 +16,29 @@ header {
 		width: 100%;
 		min-height: 80px;
 
-		.site-icon-header {
-			width: 40px;
-			height: 40px;
-			margin-top: 20px;
-			margin-left: 20px;
-		}
+			.logo-icon {
+				width: 40px;
+				height: 40px;
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+
+			.logo-text {
+				margin-left: 76px;
+				//padding-left: 76px;
+				padding-top: 25px;
+				size: 32px;
+				width: 306px;
+				height: 30px;
+				color: $theme-black;
+			}
+
+		// .site-icon-header {
+		// 	width: 40px;
+		// 	height: 40px;
+		// 	margin-top: 20px;
+		// 	margin-left: 20px;
+		// }
 
 
 
