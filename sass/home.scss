@@ -1,0 +1,30 @@
+main {
+    //background-color: $theme-black;
+
+    .first-section {
+        display:flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        gap: 0px;
+
+
+        .logo-presentacion {
+            flex: 1;
+            background-color: $theme-green;
+            box-shadow: 0px 0px 100px 10px rgba(0, 0, 0, 0.25) inset;
+        }
+
+        .form-news {
+            flex: 1;
+            background-color: $theme-pink;
+        }
+
+        @include media-tablet{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+}
+
+
