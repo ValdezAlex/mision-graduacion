@@ -15,6 +15,14 @@ get_header();  // Carga el encabezado
     <div class="form-news">
         <h1>Se viene un evento!</h1>
         <p>Dejame tu mail y enterate de mas detalles</p>
+
+        <form action="#" method="post" class="email-form">
+            <!-- <label for="email">Suscribite:</label> -->
+            <input type="email" id="email" name="email" placeholder="tumail@email.com" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <img class="img-portada" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/img-portada.png" alt="Imagen de portada">
+
     </div>
 </div>
 
