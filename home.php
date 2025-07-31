@@ -27,7 +27,11 @@
 <?php wp_site_icon(); ?>
 <?php wp_head(); ?>
 	</head>
+
+
+
 	<body <?php alt_custom_theme_print_body_class(); ?>>
+        
 		<header class="main-theme-header">
 			<div class="inner-container">
 				<a href="<?php bloginfo( 'url' ); ?>" class="site-icon" aria-label="Ir a la sección de inicio del sitio">
@@ -86,14 +90,27 @@
     <div class="second-section">
         <div class="second-section__titles">
             <div class="second-section__titles__stain-text">
-                <img class="stain" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo-mancha-naranja.svg" alt="Logo">
-                <h1 class="text-above-stain">Activando el estudio. Apagando bloqueos.</h1>
-                
+                <div class="stain-container">
+                    <img class="stain" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo-mancha-naranja.svg" alt="Logo">
+                    <div class="text-above-stain">
+                        <h1>Activando</h1>
+                        <h1>el estudio.</h1>
+                        <h1>Apagando</h1>
+                        <h1> bloqueos.</h1>
+                    </div>
+                </div>
+
             </div>
 
             <img class="arrow" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-flecha.svg" alt="flecha">
-                
-            <h1>Esto NO es una clase ni un curso de organización académica</h1>
+
+            <div class="second-section__titles__text">
+                <h1>Esto NO es</h1>
+                <h1>una clase ni</h1>
+                <h1>un curso de</h1>
+                <h1>organización</h1>
+                <h1>académica</h1>
+            </div>
 
         </div>
         <div class="second-section__text">
