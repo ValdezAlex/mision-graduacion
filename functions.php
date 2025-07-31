@@ -27,9 +27,9 @@ function child_theme_enqueue_styles()
 add_action('wp_enqueue_scripts', 'child_theme_enqueue_styles');
 
 
-
-function permitir_svg_upload($mimes) {
-    $mimes['svg'] = 'image/svg+xml';
-    return $mimes;
-}
-add_filter('upload_mimes', 'permitir_svg_upload');
+// Funcion para cargar SVG
+// function permitir_svg_upload($mimes) {
+//     $mimes['svg'] = 'image/svg+xml';
+//     return $mimes;
+// }
+// add_filter('upload_mimes', 'permitir_svg_upload');
