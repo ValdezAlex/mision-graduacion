@@ -9,10 +9,28 @@
 //   height: 100%;
 // }
 
-html, body, .page, #page, #content, .site-content, .entry-content, main {
-  margin: 0 !important;
-  padding: 0 !important;
-  //overflow-x: hidden; 
-  width: 100% !important;
-  height: 100% !important;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// html, body, main, .page, #page, #content, .site-content, .entry-content, main {
+//   margin: 0 !important;
+//   padding: 0 !important;
+//   overflow-x: hidden; 
+//   width: 100% !important;
+//   // height: 100% !important;
+// }
+
+// img {
+//   max-width: 100%;
+//   height: auto;
+//   display: block;
+// }
+

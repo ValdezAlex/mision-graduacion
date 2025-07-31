@@ -1,7 +1,13 @@
 footer{
     background-color: $theme-black;
+    width: 100%;
+    height: 500px;
 
     .footer-h1 {
+        color: white;
+    }
+
+    .footer-h2 {
         color: white;
     }
 }

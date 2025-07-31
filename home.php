@@ -1,10 +1,66 @@
 <?php
+/**
+ * The template for displaying the blog.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package Alt_Custom_Theme
+ */
 
 
-get_header();  // Carga el encabezado
+// get_header();  // Carga el encabezado
 
-// Aquí va el contenido de la página
 ?>
+
+
+<!-- // Contenido del header para pruebas -->
+
+
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+	<head>
+		<meta charset="<?php bloginfo( 'charset' ); ?>" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+		<!-- Site favicon -->
+		<link rel="icon" href="<?php echo esc_attr( get_stylesheet_directory_uri() . '/img/favicon.ico' ); ?>" type="image/x-icon">
+<?php wp_site_icon(); ?>
+<?php wp_head(); ?>
+	</head>
+	<body <?php alt_custom_theme_print_body_class(); ?>>
+		<header class="main-theme-header">
+			<div class="inner-container">
+				<a href="<?php bloginfo( 'url' ); ?>" class="site-icon" aria-label="Ir a la sección de inicio del sitio">
+					<img class="logo-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo.svg" alt="Logo">
+					<span class="logo-text">Misión Graduación</span>
+				</a>
+<?php alt_custom_theme_print_menu( 'header' ); ?>
+				<button id="hamburger-menu-toggler">
+					<div class="bar"></div>
+					<div class="bar-space"></div>
+					<div class="bar"></div>
+				</button>
+				<div id="hamburger-menu-container">
+<?php alt_custom_theme_print_menu( 'hamburger' ); ?>
+				</div>
+			</div>
+		</header>
+		<main>
+
+
+
+
+
+
+<!-- // Fin del contenido del header -->
+
+
+
+
+
+
+
+<!-- // Aquí va el contenido de la página -->
 <div class="container-general">
     <div class="first-section">
         <div class="logo-presentacion">
@@ -14,12 +70,13 @@ get_header();  // Carga el encabezado
 
         <div class="form-news">
             <h1>Se viene un evento!</h1>
-            <p>Dejame tu mail y enterate de mas detalles</p>
+            <p>Dejame tu mail y enterate</p>
+            <p>de mas detalles</p>
 
             <form action="#" method="post" class="email-form">
                 <!-- <label for="email">Suscribite:</label> -->
-                <input type="email" id="email" name="email" placeholder="tumail@email.com" required>
-                <button type="submit">Enviar</button>
+                <input class="form-news__email-form__email" type="email" id="email" name="email" placeholder="tumail@email.com" required>
+                <button class="form-news__email-form__button" type="submit">Enviar</button>
             </form>
             <img class="img-portada" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/img-portada.png" alt="Imagen de portada">
 
@@ -105,5 +162,35 @@ get_header();  // Carga el encabezado
 
 
 <?php
+// get_footer();  // Carga el footer
+?>
 
-get_footer();  // Carga el footer
+<!-- // Contenido del footer para pruebas -->
+
+
+		</main>
+		<footer id="colophon" class="site-footer">
+
+            <img class="logo-icon-negative" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo-negativo.svg" alt="logo blanco">
+
+			<h1 class="footer-h1">
+				Redes sociales
+			</h1>
+            
+            <h1 class="footer-h1">mail</h1>
+            <h2 class="footer-h2">misiongraduacion@gmail.com</h2>
+			
+<?php
+	alt_custom_theme_print_menu( 'footer' );
+?>
+
+		</footer>
+		<?php wp_footer(); ?>
+	</body>
+</html>
+
+
+
+
+
+<!-- // fin del footer para pruebas -->
