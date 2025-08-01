@@ -87,7 +87,7 @@
         </div>
     </div>
 
-    <div class="second-section">
+    <!-- <div class="second-section">
         <div class="second-section__titles">
             <div class="second-section__titles__stain-text">
                 <div class="stain-container">
@@ -116,7 +116,7 @@
         <div class="second-section__text">
             <span>Este lugarcito lo pensé para que puedas frenar un poco la cabeza, ordenarte, y empezar a mirar tu carrera con otros ojos. No importa si estás recién empezando o si te falta poco para terminar: si sentís que hay algo que te está trabando, este espacio es para vos.</span>
         </div>
-    </div>
+    </div> -->
 
     <div class="third-section">
         <div class="third-section__cards-section">

@@ -69,18 +69,36 @@ body{
                         padding: 20px 0 0 0;
                         display: flex;
                         flex-direction: column;
+                        align-items: center;
 
                         .form-news__email-form__email {
-                            padding: 0 0 10px 0;
+                            padding: 0 0 0 10px;
                             width: 320px;
                             height: 43px;
+                            //text-align: center;
+                            border: 1px solid;
+                            border-color: $theme-black;
+                            border-radius: 4px;
+
+                            &::placeholder {
+                            font-style: italic;
+                            color: gray;
+                            }
 
                         }
 
                         .form-news__email-form__button {
                             width: 137px;
                             height: 55px;
+                            border: 1px solid;
+                            background-color: $theme-cyan;
+                            border-radius: 4px;
+
                         }
+                    }
+
+                    .img-portada {
+                        padding: 20px 0 0 0;
                     }
                 }
 
@@ -178,13 +196,27 @@ body{
 
                 gap: 20px;
 
+                .third-section__cards-section{
+                    //background-color: black;
 
+                    .third-section__cards-section__title {
+                        background-color: black;
 
-                .third-section__cards-section__cards {
-                    display: flex;
-                    gap: 20px;
+                    }
+                    
+                    
+                    .third-section__cards-section__cards {
+                        display: flex;
+                        gap: 20px;
+
+                    }
+
 
                 }
+
+
+
+
 
 
 
