@@ -119,24 +119,19 @@
     </div> -->
 
     <div class="third-section">
-        <div class="third-section__cards-section">
 
-            <h1>Sobre Misión Graduación</h1>
+        <h1 class="third-section__title">Sobre Misión Graduación</h1>
 
-            <div class="third-section__cards-section__cards">
-                <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card1.svg" alt="">
-                <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card2.svg" alt="">
-                <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card3.svg" alt="">
-            </div>
-
+        <div class="third-section__cards">
+            <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card1.svg" alt="">
+            <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card2.svg" alt="">
+            <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card3.svg" alt="">
         </div>
 
-        <div class="third-section__only-card-section">
-            <div class="third-section__only-card-section__only-card">
-                <img class="only-card" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-only-card.svg" alt="">
-                <h1>Semana de exámenes</h1>
-            </div>
-            
+
+        <div class="third-section__only-card">
+            <img class="card" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-only-card.svg" alt="">
+            <h1 class="sub-title">Semana de exámenes</h1>
         </div>
     </div>
 

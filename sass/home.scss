@@ -196,40 +196,37 @@ body{
 
                 gap: 20px;
 
-                .third-section__cards-section{
-                    //background-color: black;
 
-                    .third-section__cards-section__title {
-                        background-color: black;
+                .third-section__title {
+                    text-align: center;
+                }
 
-                    }
-                    
-                    
-                    .third-section__cards-section__cards {
-                        display: flex;
-                        gap: 20px;
-
-                    }
-
+                .third-section__cards {
+                    display: flex;
+                    gap: 20px;
 
                 }
 
 
-
-
-
-
-
-                .third-section__only-card-section {
+                .third-section__only-card {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    flex-direction: column;
                     width: 320px;
                     height: 487px;
                     background-color: $theme-yellow;
                     border: 1px;
                     border-radius: 16px;
                     margin: 0 0 0 0;
+
+                    .card {
+                        padding: 24px 0 0 0;
+                    }
+
+                    .sub-title {
+                        text-align: center;
+                    }
                 }
             }
 
