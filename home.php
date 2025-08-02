@@ -69,7 +69,7 @@
     <div class="first-section">
         <div class="logo-presentacion">
             <img class="logo-icon-big" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logoBig.svg" alt="Logo">
-            <h1>Misión Graduación</h1>
+            <h1>misión <br> graduación</h1>
         </div>
 
         <div class="form-news">
@@ -136,21 +136,25 @@
     </div>
 
     <div class="fourth-section">
-        <div class="fourth-section__info">
-            <div class="fourth-section__info__face-text">
-                <img class="face-two" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-face2.svg" alt="">
-                <h1>Antonela Marcaccio</h1>
-                <h2>Lic. en Psicología</h2>
-            </div>
-            <span>Me encanta acompañar a estudiantes universitarios y terciarios a superar los bloqueos que aparecen en el camino del estudio. Vengo de un recorrido en la investigación educativa, especialmente en temas de toma de decisiones morales, valores laborales y dinámicas en contextos reales de aprendizaje.
+        <div class="fourth-section__picture-section">
+            <img class="fourth-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-face2.svg" alt="">
+            <h1 class="fourth-section__picture-section__title">Antonela <br> Marcaccio</h1>
+            <h2 class="fourth-section__picture-section__sub-title">Lic. en Psicología</h2>
+        </div>
+
+        <div class="fourth-section__text-section">
+            <p class="fourth-section__text-section__text">
+                Me encanta acompañar a estudiantes universitarios y terciarios a superar los bloqueos que aparecen en el camino del estudio. Vengo de un recorrido en la investigación educativa, especialmente en temas de toma de decisiones morales, valores laborales y dinámicas en contextos reales de aprendizaje.
                 Más allá de los libros, pasé por institutos de investigación y seminarios donde diseñé programas para adolescentes y adultos, buscando entender qué nos frena y cómo podemos avanzar con más claridad.
                 Me encanta acompañar a estudiantes que sienten que están un poco trabados en su camino universitario y a quienes quieren evitar nuevas trabas. Sé lo que es estar en esa etapa en la que uno se pregunta si eligió bien, si va a poder con todo, o simplemente no encuentra la motivación para seguir. Lo vi mil veces… y también lo trabajé mucho desde la investigación y, sobre todo, desde el vínculo con estudiantes como vos.
                 Si te da curiosidad o sentís que te vendría bien un empujoncito para reconectar con tu camino, te esperamos. Me encantaría que te sumes.
-            </span>
+            </p>
         </div>
+    </div>
+        
 
 
-        <div class="fourth-section__last-form">
+        <!-- <div class="fourth-section__last-form">
             <form class="fourth-section__last-form__form" action="#" method="post" class="email-form">
                 <label for="email">¿Cual es tu nombre?</label>
                 <input type="email" id="email" name="email" placeholder="nombre y apellido" required>
@@ -162,8 +166,8 @@
                 <input type="email" id="email" name="email" placeholder="tu consulta..." required>
                 <button type="submit">Enviar</button>
             </form>
-        </div>
-    </div>
+        </div> -->
+    
 
 
 

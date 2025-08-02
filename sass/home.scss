@@ -231,31 +231,41 @@ body{
             }
 
             .fourth-section {
-                // display: flex;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: row;
                 width: 100vw; /* ocupa todo el ancho de la ventana */
                 height: 753px; /* ocupa todo el alto de la ventana */
                 max-height: 753px;
                 background-color: $theme-yellow;
 
-                padding: 80px 0 0 0;
+                // padding: 80px 0 0 0;
 
 
-                .fourth-section__info {
+                .fourth-section__picture-section {
                     display: flex;
-                }
+                    flex-direction: column;
 
-                .fourth-section__last-form {
-                    max-width: 600px;
+                    .fourth-section__picture-section__title {
+                        text-align: center;
+                    }
 
-
-                    .fourth-section__last-form__form {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
-
+                    .fourth-section__picture-section__sub-title {
+                        text-align: center;
                     }
                 }
+
+                .fourth-section__text-section {
+                    padding: 40px 0 0 40px;
+
+                    .fourth-section__text-section__text {
+                        width: 737px;
+                        height: 494px;
+                    }
+
+                }
+
 
             }
         }
