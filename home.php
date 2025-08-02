@@ -151,22 +151,38 @@
             </p>
         </div>
     </div>
+
+    <div class="form-section">
+
+        <h1 class="form-section__title">Escribime con tu consulta</h1>
+
+        <form class="form-section__form" action="#" method="post" class="email-form">
+            <div class="form-section__form__input-name">
+                <label for="email">¿Cuál es tu nombre?</label>
+                <input type="email" id="email" name="email" placeholder="nombre y apellido" required>
+            </div>
+            <div class="form-section__form__input-mail">
+                <label for="email">¿Cuál es tu mail?</label>
+                <input type="email" id="email" name="email" placeholder="tumail@email.com" required>
+            </div>
+            <div class="form-section__form__input-wsp">
+                <label for="email">Whatsapp (opcional)</label>
+                <input type="email" id="email" name="email" placeholder="11 22334455" required>
+            </div>
+            <div class="form-section__form__input-consul">
+                <label for="email">¿En qué te puedo ayudar?</label>
+                <input type="email" id="email" name="email" placeholder="tu consulta..." required>
+            </div>
+
+            <button class="form-section__form__buttom" type="submit">Enviar</button>
+        </form>
+    </div>
+
+    </div>
         
 
 
-        <!-- <div class="fourth-section__last-form">
-            <form class="fourth-section__last-form__form" action="#" method="post" class="email-form">
-                <label for="email">¿Cual es tu nombre?</label>
-                <input type="email" id="email" name="email" placeholder="nombre y apellido" required>
-                <label for="email">¿Cual es tu mail?</label>
-                <input type="email" id="email" name="email" placeholder="tumail@email.com" required>
-                <label for="email">Whatsapp(opcional)</label>
-                <input type="email" id="email" name="email" placeholder="11 22334455" required>
-                <label for="email">¿En que te puedo ayudar?</label>
-                <input type="email" id="email" name="email" placeholder="tu consulta..." required>
-                <button type="submit">Enviar</button>
-            </form>
-        </div> -->
+
     
 
 
