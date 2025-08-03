@@ -203,14 +203,29 @@
 		</main>
 		<footer id="colophon" class="site-footer">
 
+        <div class="site-footer__logo">
             <img class="logo-icon-negative" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo-negativo.svg" alt="logo blanco">
+        </div>
 
-			<h1 class="footer-h1">
-				Redes sociales
+        <div class="site-footer__network-section">
+            <h1 class="site-footer__network-section__networks">
+                redes sociales
 			</h1>
+
+            <h1 class="site-footer__network-section__mail-title">
+                mail
+            </h1>
+
+            <h2 class="site-footer__network-section__mail-subtitle">
+                misiongraduacion@gmail.com
+            </h2>
+        </div>
+
+
+
             
-            <h1 class="footer-h1">mail</h1>
-            <h2 class="footer-h2">misiongraduacion@gmail.com</h2>
+            
+            
 			
 <?php
 	alt_custom_theme_print_menu( 'footer' );
