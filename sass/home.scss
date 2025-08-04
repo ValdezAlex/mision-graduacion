@@ -81,8 +81,8 @@ body{
                             border-radius: 4px;
 
                             &::placeholder {
-                            font-style: italic;
-                            color: gray;
+                                font-style: italic;
+                                color: gray;
                             }
 
                         }
@@ -216,7 +216,7 @@ body{
                     flex-direction: column;
                     width: 320px;
                     height: 487px;
-                    background-color: $theme-yellow;
+                    background-color: $theme-light-green;
                     border: 1px;
                     border-radius: 16px;
                     margin: 0 0 0 0;
@@ -293,43 +293,113 @@ body{
                     .form-section__form__input-name {
                         display: flex;
                         flex-direction: column;
-                        width: 600px;
-                        height: 43px;
+                        // width: 600px;
+                        // height: 43px;
                         //padding: 0 0 0 0;
                         gap: 5px;
+
+                        .form-section__form__input-name__name {
+                            padding: 0 0 0 10px;
+                            width: 600px;
+                            height: 43px;
+                            //text-align: center;
+                            border: 1px solid;
+                            border-color: $theme-black;
+                            border-radius: 4px;
+
+                            &::placeholder {
+                                font-style: italic;
+                                color: gray;
+                            }
+                        }
+
                     }
 
                     .form-section__form__input-mail {
                         display: flex;
                         flex-direction: column;
-                        width: 600px;
-                        height: 43px;
-                        //padding: 10px 0 0 0;
-                        margin: 10px 0 0 0;
+                        // width: 600px;
+                        // height: 43px;
+                        //padding: 0 0 0 0;
                         gap: 5px;
+
+                        .form-section__form__input-mail__mail {
+                            padding: 0 0 0 10px;
+                            width: 600px;
+                            height: 43px;
+                            //text-align: center;
+                            border: 1px solid;
+                            border-color: $theme-black;
+                            border-radius: 4px;
+
+                            &::placeholder {
+                                font-style: italic;
+                                color: gray;
+                            }
+                        }
+
                     }
 
                     .form-section__form__input-wsp {
                         display: flex;
                         flex-direction: column;
-                        width: 600px;
-                        height: 43px;
-                        //padding: 20px 0 0 0;
-                        margin: 10px 0 0 0;
+                        // width: 600px;
+                        // height: 43px;
+                        //padding: 0 0 0 0;
                         gap: 5px;
+                            
+                        
+                        .form-section__form__input-wsp__wsp {
+                            padding: 0 0 0 10px;
+                            width: 600px;
+                            height: 43px;
+                            //text-align: center;
+                            border: 1px solid;
+                            border-color: $theme-black;
+                            border-radius: 4px;
+
+                            &::placeholder {
+                                font-style: italic;
+                                color: gray;
+                            }
+                        }
+
                     }
 
                     .form-section__form__input-consul {
                         display: flex;
                         flex-direction: column;
-                        width: 600px;
-                        height: 43px;
-                        //padding: 10px 0 0 0;
-                        margin: 10px 0 0 0;
+                        // width: 600px;
+                        // height: 43px;
+                        //padding: 0 0 0 0;
                         gap: 5px;
-                    }
+                            
+                        
+                        .form-section__form__input-consul__consul {
+                            // display: flex;
+                            // align-items: flex-start;
+                            // justify-content: flex-start;
 
-                    
+
+                            padding: 0 0 60px 10px;
+                            width: 600px;
+                            height: 96px;
+
+                            //text-align: center;
+                            //vertical-align: top;
+
+                            border: 1px solid;
+                            border-color: $theme-black;
+                            border-radius: 4px;
+
+                            &::placeholder {
+                                font-style: italic;
+                                color: gray;
+                            }
+                        }
+
+                    }                   
+
                     .form-section__form__buttom {
                         width: 137px;
                         height: 55px;

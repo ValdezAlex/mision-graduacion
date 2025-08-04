@@ -159,19 +159,19 @@
         <form class="form-section__form" action="#" method="post" class="email-form">
             <div class="form-section__form__input-name">
                 <label for="email">¿Cuál es tu nombre?</label>
-                <input type="email" id="email" name="email" placeholder="nombre y apellido" required>
+                <input class="form-section__form__input-name__name" type="email" id="email" name="email" placeholder="nombre y apellido" required>
             </div>
             <div class="form-section__form__input-mail">
                 <label for="email">¿Cuál es tu mail?</label>
-                <input type="email" id="email" name="email" placeholder="tumail@email.com" required>
+                <input class="form-section__form__input-mail__mail" type="email" id="email" name="email" placeholder="tumail@email.com" required>
             </div>
             <div class="form-section__form__input-wsp">
                 <label for="email">Whatsapp (opcional)</label>
-                <input type="email" id="email" name="email" placeholder="11 22334455" required>
+                <input class="form-section__form__input-wsp__wsp" type="email" id="email" name="email" placeholder="11 22334455" required>
             </div>
             <div class="form-section__form__input-consul">
                 <label for="email">¿En qué te puedo ayudar?</label>
-                <input type="email" id="email" name="email" placeholder="tu consulta..." required>
+                <input class="form-section__form__input-consul__consul" type="email" id="email" name="email" placeholder="tu consulta..." required>
             </div>
 
             <button class="form-section__form__buttom" type="submit">Enviar</button>
