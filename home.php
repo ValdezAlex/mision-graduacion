@@ -87,24 +87,26 @@
         </div>
     </div>
 
-    <!-- <div class="second-section">
-        <div class="second-section__titles">
-            <div class="second-section__titles__stain-text">
-                <div class="stain-container">
-                    <img class="stain" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo-mancha-naranja.svg" alt="Logo">
-                    <div class="text-above-stain">
-                        <h1>Activando</h1>
-                        <h1>el estudio.</h1>
-                        <h1>Apagando</h1>
-                        <h1> bloqueos.</h1>
-                    </div>
-                </div>
+
+
+
+
+
+    <div class="second-section">
+
+        <div class="second-section__obj-text-section">
+
+            <div class="second-section__obj-text-section__slain-text-section">
+
+                <img class="stain" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo-mancha-naranja.svg" alt="Logo">
+                
+                <h1 class="text-above">Activando el estudio. Apagando bloqueos.</h1>
 
             </div>
 
-            <img class="arrow" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-flecha.svg" alt="flecha">
+            <img class="second-section__obj-text-section__arrow-section" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-flecha.svg" alt="flecha">
 
-            <div class="second-section__titles__text">
+            <div class="second-section__obj-text-section__sec-text">
                 <h1>Esto NO es</h1>
                 <h1>una clase ni</h1>
                 <h1>un curso de</h1>
@@ -113,10 +115,17 @@
             </div>
 
         </div>
-        <div class="second-section__text">
-            <span>Este lugarcito lo pensé para que puedas frenar un poco la cabeza, ordenarte, y empezar a mirar tu carrera con otros ojos. No importa si estás recién empezando o si te falta poco para terminar: si sentís que hay algo que te está trabando, este espacio es para vos.</span>
+
+        <div class="second-section__text-section">
+            <p>Este lugarcito lo pensé para que puedas frenar un poco la cabeza, ordenarte, y empezar a mirar tu carrera con otros ojos. No importa si estás recién empezando o si te falta poco para terminar: si sentís que hay algo que te está trabando, este espacio es para vos.</p>
         </div>
-    </div> -->
+
+    </div>
+
+
+
+
+
 
     <div class="third-section">
 
