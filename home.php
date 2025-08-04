@@ -34,9 +34,9 @@
         
 		<header class="main-theme-header">
 			<div class="inner-container">
-				<a href="<?php bloginfo( 'url' ); ?>" class="site-icon" aria-label="Ir a la sección de inicio del sitio">
+				<a class="site-icon" href="<?php bloginfo( 'url' ); ?>"  aria-label="Ir a la sección de inicio del sitio">
 					<img class="logo-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo.svg" alt="Logo">
-					<span class="logo-text">Misión Graduación</span>
+					<h1 class="logo-text">Misión Graduación</h1>
 				</a>
 <?php alt_custom_theme_print_menu( 'header' ); ?>
 				<button id="hamburger-menu-toggler">

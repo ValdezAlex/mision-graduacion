@@ -1,6 +1,13 @@
 @font-face {
     font-family: 'Cooper Black';
-    src: url('../assets/fonts/COOPBL.TTF') format('truetype');
-    font-weight: 400;
+    src: url('assets/fonts/cooper-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('assets/fonts/nunito-sans-italic.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }

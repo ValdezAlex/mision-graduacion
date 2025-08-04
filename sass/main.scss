@@ -19,8 +19,8 @@ $theme-black: #020917;
 
 
 /* Tipografias */
-$theme-title-font: 'Cooper Black', regular;
-$theme-main-font: 'Nunito Sans', regular;
+$theme-title-font: 'Cooper Black', serif;
+$theme-main-font: 'Nunito Sans', sans-serif;
 $theme-main-title-font: 'Nunito Sans', bold;
 $theme-form-font: 'Nunito Sans', italic;
 
@@ -41,3 +41,5 @@ $img-directory: "img/";
 @import 'home';
 //@import 'base';
 //@import 'layout';
+
+

@@ -15,8 +15,17 @@ header {
 	.inner-container {
 		padding: 0;
 		background-color: $theme-yellow;
-		width: 100%;
+		width: 100%; 
 		min-height: 80px;
+
+
+		.site-icon {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			//	justify-content: center;
+			//align-items: center;
+
 
 			.logo-icon {
 				width: 40px;
@@ -28,13 +37,20 @@ header {
 			.logo-text {
 				//display: block;
 				//margin-left: 76px;
-				//padding-left: 76px;
-				padding-top: 25px;
-				size: 32px;
-				width: 306px;
+				padding-left: 16px;
+				padding-top: 15px;
+				font-size: 26px;
+				//size: 32px;
+				width: 600px;
 				height: 30px;
 				color: $theme-black;
 			}
+
+		}
+
+
+
+
 
 		// .site-icon-header {
 		// 	width: 40px;
