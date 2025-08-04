@@ -100,7 +100,7 @@
 
                 <img class="stain" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo-mancha-naranja.svg" alt="Logo">
                 
-                <h1 class="text-above">Activando el estudio. Apagando bloqueos.</h1>
+                <h1 class="text-above">Activando <br> el estudio.<br> Apagando<br> bloqueos.</h1>
 
             </div>
 
@@ -117,7 +117,7 @@
         </div>
 
         <div class="second-section__text-section">
-            <p>Este lugarcito lo pensé para que puedas frenar un poco la cabeza, ordenarte, y empezar a mirar tu carrera con otros ojos. No importa si estás recién empezando o si te falta poco para terminar: si sentís que hay algo que te está trabando, este espacio es para vos.</p>
+            <p>Este lugarcito lo pensé para que puedas frenar un poco<br> la cabeza, ordenarte, y empezar a mirar tu carrera con<br> otros ojos. No importa si estás recién empezando o si te<br> falta poco para terminar: si sentís que hay algo que te<br> está trabando, este espacio es para vos.</p>
         </div>
 
     </div>
