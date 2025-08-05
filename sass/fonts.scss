@@ -6,8 +6,15 @@
 }
 
 @font-face {
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans Italic';
     src: url('assets/fonts/nunito-sans-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('assets/fonts/nunito-sans-variable.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

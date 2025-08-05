@@ -74,8 +74,8 @@
 
         <div class="form-news">
             <h1>Se viene un evento!</h1>
-            <p>Dejame tu mail y enterate</p>
-            <p>de mas detalles</p>
+            <h2>Dejame tu mail y enterate<br> de mas detalles</h2>
+
 
             <form action="#" method="post" class="email-form">
                 <!-- <label for="email">Suscribite:</label> -->
@@ -107,17 +107,13 @@
             <img class="second-section__obj-text-section__arrow-section" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-flecha.svg" alt="flecha">
 
             <div class="second-section__obj-text-section__sec-text">
-                <h1>Esto NO es</h1>
-                <h1>una clase ni</h1>
-                <h1>un curso de</h1>
-                <h1>organización</h1>
-                <h1>académica</h1>
+                <h1>Esto NO es<br> una clase ni<br> un curso de<br> organización<br> académica</h1>
             </div>
 
         </div>
 
         <div class="second-section__text-section">
-            <p>Este lugarcito lo pensé para que puedas frenar un poco<br> la cabeza, ordenarte, y empezar a mirar tu carrera con<br> otros ojos. No importa si estás recién empezando o si te<br> falta poco para terminar: si sentís que hay algo que te<br> está trabando, este espacio es para vos.</p>
+            <h3>Este lugarcito lo pensé para que puedas frenar un poco<br> la cabeza, ordenarte, y empezar a mirar tu carrera con<br> otros ojos. No importa si estás recién empezando o si te<br> falta poco para terminar: si sentís que hay algo que te<br> está trabando, este espacio es para vos.</h3>
         </div>
 
     </div>
@@ -152,12 +148,12 @@
         </div>
 
         <div class="fourth-section__text-section">
-            <p class="fourth-section__text-section__text">
+            <h3 class="fourth-section__text-section__text">
                 Me encanta acompañar a estudiantes universitarios y terciarios a superar los bloqueos que aparecen en el camino del estudio. Vengo de un recorrido en la investigación educativa, especialmente en temas de toma de decisiones morales, valores laborales y dinámicas en contextos reales de aprendizaje.
                 Más allá de los libros, pasé por institutos de investigación y seminarios donde diseñé programas para adolescentes y adultos, buscando entender qué nos frena y cómo podemos avanzar con más claridad.
                 Me encanta acompañar a estudiantes que sienten que están un poco trabados en su camino universitario y a quienes quieren evitar nuevas trabas. Sé lo que es estar en esa etapa en la que uno se pregunta si eligió bien, si va a poder con todo, o simplemente no encuentra la motivación para seguir. Lo vi mil veces… y también lo trabajé mucho desde la investigación y, sobre todo, desde el vínculo con estudiantes como vos.
                 Si te da curiosidad o sentís que te vendría bien un empujoncito para reconectar con tu camino, te esperamos. Me encantaría que te sumes.
-            </p>
+            </h3>
         </div>
     </div>
 
@@ -167,19 +163,19 @@
 
         <form class="form-section__form" action="#" method="post" class="email-form">
             <div class="form-section__form__input-name">
-                <label for="email">¿Cuál es tu nombre?</label>
+                <label for="email"><h2>¿Cuál es tu nombre?</h2></label>
                 <input class="form-section__form__input-name__name" type="email" id="email" name="email" placeholder="nombre y apellido" required>
             </div>
             <div class="form-section__form__input-mail">
-                <label for="email">¿Cuál es tu mail?</label>
+                <label for="email"><h2>¿Cuál es tu mail?</h2></label>
                 <input class="form-section__form__input-mail__mail" type="email" id="email" name="email" placeholder="tumail@email.com" required>
             </div>
             <div class="form-section__form__input-wsp">
-                <label for="email">Whatsapp (opcional)</label>
+                <label for="email"><h2>Whatsapp (opcional)</h2></label>
                 <input class="form-section__form__input-wsp__wsp" type="email" id="email" name="email" placeholder="11 22334455" required>
             </div>
             <div class="form-section__form__input-consul">
-                <label for="email">¿En qué te puedo ayudar?</label>
+                <label for="email"><h2>¿En qué te puedo ayudar?</h2></label>
                 <input class="form-section__form__input-consul__consul" type="email" id="email" name="email" placeholder="tu consulta..." required>
             </div>
 

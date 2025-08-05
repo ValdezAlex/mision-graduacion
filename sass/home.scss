@@ -4,6 +4,19 @@ h1 {
 
 }
 
+h2 {
+    font-family: $theme-main-title-font;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: $theme-main-font;
+}
+
+h4 {
+    font-family: $theme-form-font;
+}
+
 
 body{
     margin: 0px 0px 0px 0px;
@@ -90,7 +103,7 @@ body{
                             border-radius: 4px;
 
                             &::placeholder {
-                                font-style: italic;
+                                font-family: $theme-form-font;
                                 color: gray;
                             }
 
@@ -148,16 +161,21 @@ body{
                             top: 0;
                             //left: 0;
                             margin: 0;
-                            padding: 100px 0 0 198px;
+                            padding: 100px 0 0 80px;
 
 
                             //color: white;
                             //background-color: rgba(0, 0, 0, 0.5);
-                            font-size: 24px;
+                            font-size: 44px;
 
                         }
                         
                     }
+                }
+
+                .second-section__text-section {
+                    margin: 80px 0 0 0;
+
                 }
             }
 
@@ -241,6 +259,7 @@ body{
                     .fourth-section__text-section__text {
                         width: 737px;
                         height: 494px;
+                        font-size: 24px;
                     }
 
                 }
@@ -286,7 +305,7 @@ body{
                             border-radius: 4px;
 
                             &::placeholder {
-                                font-style: italic;
+                                font-family: $theme-form-font;
                                 color: gray;
                             }
                         }
@@ -302,6 +321,7 @@ body{
                         gap: 5px;
 
                         .form-section__form__input-mail__mail {
+
                             padding: 0 0 0 10px;
                             width: 600px;
                             height: 43px;
@@ -310,9 +330,12 @@ body{
                             border-color: $theme-black;
                             border-radius: 4px;
 
+                            //font-family: $theme-form-font;
+
                             &::placeholder {
-                                font-style: italic;
+                                font-family: $theme-form-font;
                                 color: gray;
+
                             }
                         }
 
@@ -337,7 +360,7 @@ body{
                             border-radius: 4px;
 
                             &::placeholder {
-                                font-style: italic;
+                                font-family: $theme-form-font;
                                 color: gray;
                             }
                         }
@@ -371,7 +394,7 @@ body{
                             border-radius: 4px;
 
                             &::placeholder {
-                                font-style: italic;
+                                font-family: $theme-form-font;
                                 color: gray;
                             }
                         }
