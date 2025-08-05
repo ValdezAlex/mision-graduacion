@@ -69,12 +69,12 @@
     <div class="first-section">
         <div class="logo-presentacion">
             <img class="logo-icon-big" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logoBig.svg" alt="Logo">
-            <h1>misión <br> graduación</h1>
+            <h1 class="first-section__logo-presentacion__text">misión <br> graduación</h1>
         </div>
 
         <div class="form-news">
             <h1>Se viene un evento!</h1>
-            <h2>Dejame tu mail y enterate<br> de mas detalles</h2>
+            <h2 class="first-section__form-news__sub-text">Dejame tu mail y enterate<br> de mas detalles</h2>
 
 
             <form action="#" method="post" class="email-form">
