@@ -35,6 +35,7 @@ header {
 			}
 
 			.logo-text {
+				
 				//display: block;
 				//margin-left: 76px;
 				padding-left: 16px;
@@ -44,6 +45,10 @@ header {
 				width: 600px;
 				height: 30px;
 				color: $theme-black;
+
+				@include media-mobile {
+					display: none;
+				}
 			}
 
 		}
@@ -70,11 +75,14 @@ header {
 			max-width: 1600px;
 			height: auto;
 			margin: 0 auto;
+
 			.text-header {
 				color: $theme-black;
 				margin-top: 25px;
 				margin-left: 76px;
-		}
+			}
+
+
 		}
 
 

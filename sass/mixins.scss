@@ -6,14 +6,20 @@
 
 
 /* Media queries */
+@mixin media-mobile {
+    @media screen and (max-width: $breakpoint-mobile) {
+        @content;
+    }
+}
+
 @mixin media-tablet {
-    @media screen and (min-width: $breakpoint-tablet) {
+    @media screen and (max-width: $breakpoint-tablet) {
         @content;
     }
 }
 
 @mixin media-desktop {
-    @media screen and (min-width: $breakpoint-desktop) {
+    @media screen and (max-width: $breakpoint-desktop) {
         @content;
     }
 }

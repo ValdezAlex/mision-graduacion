@@ -5,6 +5,7 @@
 // sass --watch main.scss ../style.min.css --style=compressed
 // sass main.scss ../style.min.css --style=compressed
 
+$breakpoint-mobile: 360px;
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1024px;
 

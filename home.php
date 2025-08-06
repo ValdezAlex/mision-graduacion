@@ -66,31 +66,34 @@
 
 <!-- // Aquí va el contenido de la página -->
 <div class="container-general">
+
     <div class="first-section">
-        <div class="logo-presentacion">
-            <img class="logo-icon-big" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logoBig.svg" alt="Logo">
-            <h1 class="first-section__logo-presentacion__text">misión <br> graduación</h1>
+        <div class="first-section__logo-section">
+            <img class="first-section__logo-section__logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logoBig.svg" alt="Logo">
+
+            <h1 class="first-section__logo-section____text">misión <br> graduación</h1>
         </div>
 
-        <div class="form-news">
-            <h1>Se viene un evento!</h1>
-            <h2 class="first-section__form-news__sub-text">Dejame tu mail y enterate<br> de mas detalles</h2>
+        <div class="first-section__picture-section">
+            <h1 class="first-section__picture-section__title">
+                Se viene<span class="salto"> un evento!</span>
+            </h1>
 
+            <h2 class="first-section__picture-section__sub-title">
+                Dejame tu mail y enterate<br> de mas detalles
+            </h2>
 
-            <form action="#" method="post" class="email-form">
+            <form action="#" method="post" class="first-section__picture-section__form">
                 <!-- <label for="email">Suscribite:</label> -->
-                <input class="form-news__email-form__email" type="email" id="email" name="email" placeholder="tumail@email.com" required>
-                <button class="form-news__email-form__button" type="submit">Enviar</button>
+                <input class="first-section__picture-section__form__input" type="email" id="email" name="email" placeholder="tumail@email.com" required>
+                <button class="first-section__picture-section__form__button" type="submit">Enviar</button>
             </form>
-            <img class="img-portada" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/img-portada.png" alt="Imagen de portada">
 
-        </div>
+            <img class="first-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/img-portada.png" alt="Imagen de portada">
+
+
+        </div>     
     </div>
-
-
-
-
-
 
     <div class="second-section">
 
@@ -106,22 +109,21 @@
 
             <img class="second-section__obj-text-section__arrow-section" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-flecha.svg" alt="flecha">
 
-            <div class="second-section__obj-text-section__sec-text">
-                <h1>Esto NO es<br> una clase ni<br> un curso de<br> organización<br> académica</h1>
-            </div>
+
+            <h1 class="second-section__obj-text-section__sec-text">Esto NO es<br> una clase ni<br> un curso de<br> organización<br> académica</h1>
+
 
         </div>
 
-        <div class="second-section__text-section">
-            <h3>Este lugarcito lo pensé para que puedas frenar un poco<br> la cabeza, ordenarte, y empezar a mirar tu carrera con<br> otros ojos. No importa si estás recién empezando o si te<br> falta poco para terminar: si sentís que hay algo que te<br> está trabando, este espacio es para vos.</h3>
-        </div>
+
+        <h3 class="second-section__text-section__desktop">Este lugarcito lo pensé para que puedas frenar un poco<br> la cabeza, ordenarte, y empezar a mirar tu carrera con<br> otros ojos. No importa si estás recién empezando o si te<br> falta poco para terminar: si sentís que hay algo que te<br> está trabando, este espacio es para vos.</h3>
+
+        <h3 class="second-section__text-section__mobile">
+            ¿Estás por graduarte o atravesando una carrera y sentís que se te viene el mundo encima Tranqui, no sos el único.Este es un lugarcito pensado para vos, que estás en la recta final (o en plena montaña rusa) de tu carrera universitaria o terciaria.
+        </h3>
+
 
     </div>
-
-
-
-
-
 
     <div class="third-section">
 
