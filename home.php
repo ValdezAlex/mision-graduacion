@@ -116,10 +116,37 @@
         </div>
 
 
-        <h3 class="second-section__text-section__desktop">Este lugarcito lo pensé para que puedas frenar un poco<br> la cabeza, ordenarte, y empezar a mirar tu carrera con<br> otros ojos. No importa si estás recién empezando o si te<br> falta poco para terminar: si sentís que hay algo que te<br> está trabando, este espacio es para vos.</h3>
+        <h3 class="second-section__text-section__desktop">
+            Este lugarcito lo pensé para que puedas frenar un poco<br> la cabeza, ordenarte, y empezar a mirar tu carrera con<br> otros ojos. No importa si estás recién empezando o si te<br> falta
+            poco para terminar: si sentís que hay algo que te<br>
+            está trabando, este espacio es para vos.
+        </h3>
 
         <h3 class="second-section__text-section__mobile">
             ¿Estás por graduarte o atravesando una carrera y sentís que se te viene el mundo encima Tranqui, no sos el único.Este es un lugarcito pensado para vos, que estás en la recta final (o en plena montaña rusa) de tu carrera universitaria o terciaria.
+        </h3>
+
+        <h1 class="second-section__text-section__mobile">
+            Acá no solo hablamos de parciales y tesis. Hablamos de TODO eso que pesa y que nadie te enseñó a gestionar:
+        </h1>
+
+        <h3 class="second-section__text-section__mobile">
+            El estrés de rendir y sentir que nunca alcanza.<br>
+            La presión familiar o social de "terminar ya".<br>
+            La culpa por no avanzar al ritmo de los demás.<br>
+            El miedo a no saber qué hacer después del título.<br>
+            La ansiedad, el agotamiento y el famoso “no doy más”.<br>
+            Esa sensación de estar perdido o desconectado de tu propósito.                        
+        </h3>
+
+        <h3 class="second-section__text-section__mobile">
+            En Misión Graduación vas a encontrar talleres, cursos y contenido pensado para acompañarte en esta etapa que puede ser TAN desafiante como transformadora.
+            Con herramientas emocionales, acompañamiento real y mucho amor.<br><br>
+
+            No es solo un espacio para hablar de estudios. Es un lugar para hablar de vos.
+            Para que recuerdes que no sos una máquina de rendir y que tu valor no se mide en finales aprobados.<br><br>
+
+            Te esperamos en <strong>@misiongraduacion</strong>. Recibirte es una misión posible y el camino es una transformación.
         </h3>
 
 

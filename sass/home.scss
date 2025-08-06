@@ -175,10 +175,9 @@ body{
                 width: 100vw;
                 height: 852px;
 
-                // @include media-tablet{
-                //     flex-direction: row;
-                //     justify-content: space-between;
-                // }
+                @include media-tablet{
+                    height: 2147px;
+                }
 
                 .second-section__obj-text-section {
                     display: flex;
@@ -259,7 +258,7 @@ body{
                 .second-section__text-section__mobile {
                     margin: 40px 0 0 0;
                     width: 320px;
-                    height: 330px;
+                    height: auto;
                     line-height: 120%;
                     display: none;
 
