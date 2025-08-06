@@ -186,6 +186,8 @@ body{
                     align-items: center;
                     flex-direction: row;
 
+                    //margin: 240px 0 0 0;
+
                     @include media-mobile{
                         flex-direction: column;
                         justify-content: flex-start;
@@ -259,10 +261,11 @@ body{
                     width: 320px;
                     height: 330px;
                     line-height: 120%;
+                    display: none;
 
-                    @include media-desktop {
-                        display: none;
-                    }
+                    // @include media-desktop {
+                    //     display: none;
+                    // }
 
                     @include media-mobile {
                         display: block;
