@@ -86,7 +86,11 @@
             <form action="#" method="post" class="first-section__picture-section__form">
                 <!-- <label for="email">Suscribite:</label> -->
                 <input class="first-section__picture-section__form__input" type="email" id="email" name="email" placeholder="tumail@email.com" required>
-                <button class="first-section__picture-section__form__button" type="submit">Enviar</button>
+                <button class="first-section__picture-section__form__button" type="submit">
+                    <h1 class="first-section__picture-section__form__button__text">
+                        ENVIAR
+                    </h1>
+                </button>
             </form>
 
             <img class="first-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/img-portada.png" alt="Imagen de portada">
@@ -183,6 +187,16 @@
                 Me encanta acompañar a estudiantes que sienten que están un poco trabados en su camino universitario y a quienes quieren evitar nuevas trabas. Sé lo que es estar en esa etapa en la que uno se pregunta si eligió bien, si va a poder con todo, o simplemente no encuentra la motivación para seguir. Lo vi mil veces… y también lo trabajé mucho desde la investigación y, sobre todo, desde el vínculo con estudiantes como vos.
                 Si te da curiosidad o sentís que te vendría bien un empujoncito para reconectar con tu camino, te esperamos. Me encantaría que te sumes.
             </h3>
+
+            <h3 class="fourth-section__text-section__text-mobile">
+                Vengo del mundo de la docencia y de la investigación educativa, donde me enfoqué en la toma de decisiones, los valores laborales, herramientas útiles para orientación vocacional y las emociones que influyen en nuestras elecciones.<br>
+                <br>
+                Desde hace casi veinte años acompaño a estudiantes universitarios y terciarios que sienten bloqueos en su recorrido académico o quieren evitar nuevas trabas. <br>
+                <br>
+                Diseñe programas para jóvenes y adultos, siempre buscando entender qué nos frena y cómo avanzar con más claridad. <br>
+                <br>
+                Cada uno de nosotros tiene una historia única pero compartimos desafíos comunes. Con calma, humor y escucha, reconectamos con tu camino y tomamos impulso. Te espero
+            </h3>
         </div>
     </div>
 
@@ -208,7 +222,11 @@
                 <input class="form-section__form__input-consul__consul" type="email" id="email" name="email" placeholder="tu consulta..." required>
             </div>
 
-            <button class="form-section__form__buttom" type="submit">Enviar</button>
+            <button class="form-section__form__buttom" type="submit">
+                <h1 class="form-section__form__buttom__text">
+                    ENVIAR
+                </h1>
+            </button>
         </form>
     </div>
 

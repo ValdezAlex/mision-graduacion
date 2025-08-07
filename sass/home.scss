@@ -154,6 +154,11 @@ body{
                             border-radius: 4px;
                             margin: 5px 0 0 0;
 
+                            .first-section__picture-section__form__button__text {
+                                margin: 0;
+                                font-size: 24px;
+                            }
+
                         }
                     }
 
@@ -310,7 +315,7 @@ body{
                     background-color: $theme-light-green;
                     border: 1px;
                     border-radius: 16px;
-                    margin: 0 0 0 0;
+                    margin: 0 0 60px 0;
 
                     .card {
                         padding: 24px 0 0 0;
@@ -329,10 +334,16 @@ body{
                 flex-direction: row;
                 width: 100vw; /* ocupa todo el ancho de la ventana */
                 height: 753px; /* ocupa todo el alto de la ventana */
-                max-height: 753px;
+                //max-height: 753px;
                 background-color: $theme-yellow;
 
                 // padding: 80px 0 0 0;
+
+                @include media-mobile {
+                    flex-direction: column;
+                    height: 1349px;
+                    justify-content: flex-start;
+                }
 
 
                 .fourth-section__picture-section {
@@ -351,10 +362,31 @@ body{
                 .fourth-section__text-section {
                     padding: 40px 0 0 40px;
 
+                    @include media-mobile {
+                        padding: 24px 20px 0 20px;
+                    }
+
+
+
                     .fourth-section__text-section__text {
                         width: 737px;
                         height: 494px;
                         font-size: 24px;
+
+                        @include media-mobile {
+                            //width: auto;
+                            width: 320px;
+                            display: none;
+                        }
+                    }
+
+                    .fourth-section__text-section__text-mobile {
+                        display: none;
+
+                        @include media-mobile {
+                            display: block;
+                            width: 320px;
+                        }
                     }
 
                 }
@@ -371,16 +403,31 @@ body{
                 justify-content: flex-start;
                 align-items: center;
 
+                @include media-mobile {
+                    width: 360px;
+                    height: 664px;
+                    max-width: 360px;
+                    //text-align: center;
+                }
 
-                // .form-section__title {
 
-                // }
+                .form-section__title {
+
+                    @include media-mobile {
+                        text-align: center;
+                    }
+                }
 
                 .form-section__form {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     gap: 10px;
+
+                    @include media-mobile {
+                        width: 360px;
+                        max-width: 360px;
+                    }
 
                     .form-section__form__input-name {
                         display: flex;
@@ -389,6 +436,11 @@ body{
                         // height: 43px;
                         //padding: 0 0 0 0;
                         gap: 5px;
+
+                        @include media-mobile {
+                            width: 320px;
+                            max-width: 360px;
+                        }
 
                         .form-section__form__input-name__name {
                             padding: 0 0 0 10px;
@@ -403,6 +455,10 @@ body{
                                 font-family: $theme-form-font;
                                 color: gray;
                             }
+
+                            @include media-desktop {
+                                width: 320px;
+                            }
                         }
 
                     }
@@ -414,6 +470,10 @@ body{
                         // height: 43px;
                         //padding: 0 0 0 0;
                         gap: 5px;
+
+                        @include media-mobile {
+                            width: 320px;
+                        }
 
                         .form-section__form__input-mail__mail {
 
@@ -430,7 +490,10 @@ body{
                             &::placeholder {
                                 font-family: $theme-form-font;
                                 color: gray;
+                            }
 
+                            @include media-mobile {
+                                width: 320px;
                             }
                         }
 
@@ -443,6 +506,10 @@ body{
                         // height: 43px;
                         //padding: 0 0 0 0;
                         gap: 5px;
+
+                        @include media-mobile {
+                            width: 320px;
+                        }
                             
                         
                         .form-section__form__input-wsp__wsp {
@@ -458,6 +525,10 @@ body{
                                 font-family: $theme-form-font;
                                 color: gray;
                             }
+
+                            @include media-mobile {
+                                width: 320px;
+                            }
                         }
 
                     }
@@ -469,6 +540,10 @@ body{
                         // height: 43px;
                         //padding: 0 0 0 0;
                         gap: 5px;
+
+                        @include media-mobile {
+                            width: 320px;
+                        }
                             
                         
                         .form-section__form__input-consul__consul {
@@ -492,6 +567,10 @@ body{
                                 font-family: $theme-form-font;
                                 color: gray;
                             }
+
+                            @include media-mobile {
+                                width: 320px;
+                            }
                         }
 
                     }                   
@@ -502,7 +581,12 @@ body{
                         border: 1px solid;
                         background-color: $theme-cyan;
                         border-radius: 4px;
-                        margin: 20px 0 0 0;
+                        //margin: 20px 0 0 0;
+
+                        .form-section__form__buttom__text {
+                            margin: 0;
+                            font-size: 24px;
+                        }
                     }
 
                 }
