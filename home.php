@@ -160,10 +160,15 @@
 
         <h1 class="third-section__title">Sobre Misión Graduación</h1>
 
-        <div class="third-section__cards">
-            <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card1.svg" alt="">
-            <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card2.svg" alt="">
-            <img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card3.svg" alt="">
+        <div class="third-section__carousel">
+            <div class="third-section__carousel__cards">
+                <div class="card"><img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card1.svg" alt="Imagen 1"></div>
+                <div class="card"><img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card2.svg" alt="Imagen 2"></div>
+                <div class="card"><img class="cards" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card3.svg" alt="Imagen 3"></div>
+            </div>
+
+            <button class="third-section__carousel__button prev">‹</button>
+            <button class="third-section__carousel__button next">›</button>
         </div>
 
 
@@ -285,6 +290,7 @@
 
 		</footer>
 		<?php wp_footer(); ?>
+        <script src="js/carousel.js"></script>
 	</body>
 </html>
 
