@@ -300,35 +300,76 @@ body{
                 }
 
 
+                
+                // carousel
                 .third-section__carousel {
                     //display: none;
                     // width: 300px;
                     // height: 375px;
 
-                    @include media-mobile {
+                    .third-section__carousel__button {
+                        display: none;
+                    }
+
+                    //@include media-mobile
+                    @include media-tablet {
                         display: block;
                         position: relative;
-                        //width: 100%;
-                        width: 300px;
-                        height: 375px;
+                        width: 100%;
+                        max-width: 300px;
+                        //width: 300px;
+                        //height: 375px;
                         overflow: hidden;
                         margin: auto;
 
+
+
+                        // carousel-track
                         .third-section__carousel__cards {
                             display: flex;
                             transition: transform 0.5s ease-in-out;
                         }
 
                         .card {
-                            width: 300px;
-                            height: 375px;
+                            //width: 300px;
+                            //height: 375px;
                             min-width: 100%;
                             box-sizing: border-box;
 
                             img {
-                                width: 300px;
-                                height: 375px;
+                                //width: 300px;
+                                width: 100%;
+                                //height: 375px;
+                                height: auto;
                                 display: block;
+                            }
+                        }
+
+                        // carousel-button
+                        .third-section__carousel__button {
+                            //display: none;
+
+                            @include media-tablet {
+                                display: block;
+                                position: absolute;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                background-color: rgba(0, 0, 0, 0.5);
+                                color: white;
+                                border: none;
+                                font-size: 2rem;
+                                padding: 0.5rem;
+                                cursor: pointer;
+                                z-index: 1;
+
+                                &.prev {
+                                    left: 10px;
+                                }
+
+                                &.next {
+                                    right: 10px;
+                                }
+                                
                             }
                         }
                     }
@@ -339,13 +380,8 @@ body{
                         gap: 20px;
                     }
 
-                    .third-section__carousel__button {
-                        display: none;
 
-                        @include media-mobile {
-                            display: block;
-                        }
-                    }
+
 
 
 
