@@ -135,11 +135,17 @@
         </h1>
 
         <h3 class="second-section__text-section__mobile">
+            <img class ="pin" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-pin1.svg" alt="Pin 1">
             El estrés de rendir y sentir que nunca alcanza.<br>
+            <img class ="pin" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-pin2.svg" alt="Pin 2">
             La presión familiar o social de "terminar ya".<br>
+            <img class ="pin" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-pin3.svg" alt="Pin 3">
             La culpa por no avanzar al ritmo de los demás.<br>
+            <img class ="pin" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-pin4.svg" alt="Pin 4">
             El miedo a no saber qué hacer después del título.<br>
+            <img class ="pin" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-pin5.svg" alt="Pin 5">
             La ansiedad, el agotamiento y el famoso “no doy más”.<br>
+            <img class ="pin" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-pin6.svg" alt="Pin 6">
             Esa sensación de estar perdido o desconectado de tu propósito.                        
         </h3>
 
