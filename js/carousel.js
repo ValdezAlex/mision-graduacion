@@ -5,9 +5,40 @@
 
   let currentIndex = 0;
 
+// function updateCarousel() {
+//   const width = cards[0].clientWidth;
+//   track.style.transform = `translateX(-${currentIndex * width}px)`;
+// }
+
+// function updateCarousel() {
+//   const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+//   if (!isMobile) {
+//     // En desktop: siempre quieto y en posición inicial
+//     currentIndex = 0;
+//     track.style.transform = "translateX(0)";
+//   } else {
+//     // En mobile: mover según índice
+//     const width = cards[0].clientWidth;
+//     track.style.transform = `translateX(-${currentIndex * width}px)`;
+//   }
+// }
+
 function updateCarousel() {
-  const width = cards[0].clientWidth;
-  track.style.transform = `translateX(-${currentIndex * width}px)`;
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+  if (!isMobile) {
+    // En desktop: siempre quieto
+    currentIndex = 0;
+    track.style.transform = "translateX(0)";
+  } else {
+    // En mobile: mover según índice, sumando el gap
+    const cardStyle = getComputedStyle(cards[0]);
+    const gap = parseInt(getComputedStyle(track).gap) || 0;
+    const width = cards[0].clientWidth + gap;
+
+    track.style.transform = `translateX(-${currentIndex * width}px)`;
+  }
 }
 
 prevBtn.addEventListener('click', () => {
@@ -31,20 +62,20 @@ nextBtn.addEventListener('click', () => {
 window.addEventListener('resize', updateCarousel);
 
 // --- HOVER para PC: se mueve automáticamente mientras está el mouse encima ---
-let hoverInterval;
+// let hoverInterval;
 
-const carousel = document.querySelector('.third-section__carousel');
+// const carousel = document.querySelector('.third-section__carousel');
 
-carousel.addEventListener('mouseenter', () => {
-  hoverInterval = setInterval(() => {
-    currentIndex = (currentIndex + 1) % cards.length;
-    updateCarousel();
-  }, 2000);
-});
+// carousel.addEventListener('mouseenter', () => {
+//   hoverInterval = setInterval(() => {
+//     currentIndex = (currentIndex + 1) % cards.length;
+//     updateCarousel();
+//   }, 2000);
+// });
 
-carousel.addEventListener('mouseleave', () => {
-  clearInterval(hoverInterval);
-});
+// carousel.addEventListener('mouseleave', () => {
+//   clearInterval(hoverInterval);
+// });
 
 // --- SWIPE para móvil ---
 let startX = 0;
@@ -88,5 +119,8 @@ carousel.addEventListener('touchend', e => {
   updateCarousel();
 });
 
-// Inicializo la posición al cargar
-updateCarousel();
+// // Inicializo la posición al cargar
+// updateCarousel();
+
+window.addEventListener('resize', updateCarousel);
+updateCarousel(); // Inicializar posición correcta según tamaño de pantalla
