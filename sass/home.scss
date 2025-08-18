@@ -234,14 +234,21 @@ body{
                     }
 
                     .second-section__obj-text-section__arrow-section {
+                        // display: flex;
+                        // align-items: flex-end;
+                        align-self: flex-end;
+                        position: relative;
+                        transform: translateX(-60px);
 
                         @include media-tablet {
+                            align-self: flex-start;
                             margin: 38px 0 0 0;
                             transform: rotate(90deg);
                         }
                     }
 
                     .second-section__obj-text-section__sec-text {
+                        font-size: 48px;
 
                         @include media-tablet {
                             display: none;
@@ -252,8 +259,9 @@ body{
 
                 .second-section__text-section__desktop {
                     margin: 80px 0 0 0;
-                    line-height: 24px;
-                    letter-spacing: 1px;
+                    font-size: 24px;
+                    line-height: 30px;
+                    letter-spacing: 2px;
 
                     @include media-tablet {
                         display: none;
@@ -449,6 +457,7 @@ body{
 
                     .fourth-section__picture-section__sub-title {
                         text-align: center;
+                        font-size: 24px;
                     }
                 }
 
@@ -466,7 +475,10 @@ body{
                         //width: auto;
                         max-width: 737px;
                         height: 494px;
-                        font-size: 24px;
+                        font-size: 22px;
+
+                        line-height: 120%;
+                        letter-spacing: 2px;
 
                         @include media-tablet {
                             //width: auto;

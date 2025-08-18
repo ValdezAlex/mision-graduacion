@@ -194,7 +194,7 @@
         <div class="fourth-section__picture-section">
             <img class="fourth-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-face2.svg" alt="">
             <h1 class="fourth-section__picture-section__title">Antonela <br> Marcaccio</h1>
-            <h2 class="fourth-section__picture-section__sub-title">Lic. en Psicología</h2>
+            <h1 class="fourth-section__picture-section__sub-title">Lic. en Psicología</h1>
         </div>
 
         <div class="fourth-section__text-section">
