@@ -93,7 +93,7 @@
                 </button>
             </form>
 
-            <img class="first-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/img-portada.png" alt="Imagen de portada">
+            <img class="first-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-principalpicture.svg" alt="Imagen de portada">
 
 
         </div>     
@@ -164,18 +164,21 @@
 
     <div class="third-section">
 
-        <h1 class="third-section__title">Sobre Misión Graduación</h1>
+        <h1 class="third-section__title">Seguime</h1>
 
         <div class="third-section__carousel">
             <div class="third-section__carousel__cards">
                 <div class="card">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card1.svg" alt="Imagen 1">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-ig.svg" alt="Imagen 1">
                 </div>
                 <div class="card">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card2.svg" alt="Imagen 2">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-tiktok.svg" alt="Imagen 2">
                 </div>
                 <div class="card">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-card3.svg" alt="Imagen 3">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-youtube.svg" alt="Imagen 3">
+                </div>
+                <div class="card">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-wsp.svg" alt="Imagen 3">
                 </div>
             </div>
 
@@ -184,25 +187,28 @@
         </div>
 
 
-        <div class="third-section__only-card">
+        <!-- <div class="third-section__only-card">
             <img class="card" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-only-card.svg" alt="">
             <h1 class="sub-title">Semana de exámenes</h1>
-        </div>
+        </div> -->
     </div>
 
     <div class="fourth-section">
         <div class="fourth-section__picture-section">
-            <img class="fourth-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-face2.svg" alt="">
+            <img class="fourth-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-facepreform.svg" alt="">
             <h1 class="fourth-section__picture-section__title">Antonela <br> Marcaccio</h1>
             <h1 class="fourth-section__picture-section__sub-title">Lic. en Psicología</h1>
         </div>
 
         <div class="fourth-section__text-section">
             <h3 class="fourth-section__text-section__text">
-                Me encanta acompañar a estudiantes universitarios y terciarios a superar los bloqueos que aparecen en el camino del estudio. Vengo de un recorrido en la investigación educativa, especialmente en temas de toma de decisiones morales, valores laborales y dinámicas en contextos reales de aprendizaje.
-                Más allá de los libros, pasé por institutos de investigación y seminarios donde diseñé programas para adolescentes y adultos, buscando entender qué nos frena y cómo podemos avanzar con más claridad.
-                Me encanta acompañar a estudiantes que sienten que están un poco trabados en su camino universitario y a quienes quieren evitar nuevas trabas. Sé lo que es estar en esa etapa en la que uno se pregunta si eligió bien, si va a poder con todo, o simplemente no encuentra la motivación para seguir. Lo vi mil veces… y también lo trabajé mucho desde la investigación y, sobre todo, desde el vínculo con estudiantes como vos.
-                Si te da curiosidad o sentís que te vendría bien un empujoncito para reconectar con tu camino, te esperamos. Me encantaría que te sumes.
+                Soy psicóloga y vengo del mundo de la docencia y de la investigación educativa, donde me enfoqué en la toma de decisiones, los valores laborales, herramientas útiles para orientación vocacional y las emociones que influyen en nuestras elecciones.<br>
+                <br>
+                Desde hace casi veinte años acompaño a estudiantes universitarios y terciarios que sienten bloqueos en su recorrido académico o quieren evitar nuevas trabas.<br>
+                <br>
+                Diseñe programas para jóvenes y adultos, siempre buscando entender qué nos frena y cómo avanzar con más claridad.<br>
+                <br>
+                Cada uno de nosotros tiene una historia única pero compartimos desafíos comunes. Con calma, humor y escucha, reconectamos con tu camino y tomamos impulso. <strong>Te espero.<strong>
             </h3>
 
             <h3 class="fourth-section__text-section__text-mobile">
@@ -278,7 +284,7 @@
 
         <div class="site-footer__network-section">
             <h1 class="site-footer__network-section__networks">
-                redes sociales
+                Redes
 			</h1>
 
             <h1 class="site-footer__network-section__mail-title">
