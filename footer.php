@@ -13,12 +13,15 @@
 			<h1 class="footer-h1">
 				Redes sociales
 			</h1>
-			
-<?php
-	alt_custom_theme_print_menu( 'footer' );
-?>
+
+			<ul>
+				<li><img src="/assets/svg/footer/instagram.svg" alt="Instagram"><p>@misiongraduacion</p></li>
+				<li><img src="/assets/svg/footer/tiktok.svg" alt="Tik tok"><p>@misiongraduacion</p></li>
+				<li><img src="/assets/svg/footer/youtube.svg" alt="Youtube"><p>@misiongraduacion</p></li>
+				<li><img src="/assets/svg/footer/linkedin.svg" alt="Linkedin"><p>antonelamarcaccio</p></li>
+				<li>misiongraduacion@gmail.com</li>
+			</ul>
 
 		</footer>
-		<?php wp_footer(); ?>
 	</body>
 </html>
