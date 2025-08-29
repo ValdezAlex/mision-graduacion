@@ -22,7 +22,7 @@ header {
 		.site-icon {
 			display: flex;
 			flex-direction: row;
-			width: 100%;
+			width: 400px;
 			//	justify-content: center;
 			//align-items: center;
 
@@ -232,121 +232,8 @@ header {
 			}
 		}
 
-		#hamburger-menu-toggler {
-			position: fixed;
-			top: 31px;
-			right: 16px;
-			border-style: none;
-			background-color: transparent;
-			outline: none;
-			cursor: pointer;
-			height: 18px;
-			width: 36px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			align-items: center;
-			margin: 0;
-			z-index: 6;
-
-			@include media-desktop {
-				display: inline;
-
-
-			// 	.bar {
-			// 		background-color: $theme-black;
-			// 		height: 2px;
-			// 		width: 100%;
-			// 		opacity: 1;
-			// 		transition: all 0.3s ease-in-out;
-			// 		-webkit-transition: all 0.3s ease-in-out;
-			// }
-			}
-
-			.bar {
-				background-color: $theme-orange;
-
-				height: 6px;
-				width: 36px;
-				border-radius: 4px;
-				opacity: 1;
-				transition: all 0.3s ease-in-out;
-				-webkit-transition: all 0.3s ease-in-out;
-			}
-
-			.bar-space {
-				height: 6px;
-				width: 36px;
-			}
-		}
-
-		#hamburger-menu-container {
+		#hamburger-menu-container, #hamburger-menu-toggler {
 			display: none;
-			position: fixed;
-			top: 0;
-			width: 100%;
-			height: 100%;
-			background-color: $theme-black;
-			padding: 20px;
-			z-index: 5;
-
-			a.logo-home-link {
-				width: 140px;
-				display: block;
-				margin: 0 auto;
-				padding: 0;
-			}
-
-			#menu-hamburger {
-				ul {
-					li {
-						a {
-							display: flex;
-							align-items: center;
-							justify-content: space-between;
-							font-size: 20px;
-						}
-
-						button {
-							img {
-								width: 16px;
-							}
-						}
-
-						&.open-submenu {
-							padding: 0;
-							width: 100%;
-						}
-					}
-				}
-				li.menu-item {
-					border-bottom: solid 1px;
-
-					&.submenu-opened {
-						.menu-item {
-							border: none;
-							a {
-								padding-top: 0;
-							}
-						}
-					}
-				}
-
-				> ul {
-					> li {
-						ul {
-							display: none;
-						}
-
-						&.submenu-opened {
-							ul {
-								display: block;
-							}
-						}
-					}
-				}
-			}
-
 		}
 	}
 }

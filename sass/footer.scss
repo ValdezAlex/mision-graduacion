@@ -1,4 +1,4 @@
-.site-footer{
+.site-footer {
     background-color: $theme-black;
     width: 100%;
     height: 500px;
@@ -15,11 +15,61 @@
         flex-direction: column;
 
         .site-footer__network-section__networks {
-            padding: 48px 0 0 0;
+            padding: 40px 0 0 0;
         }
 
         .site-footer__network-section__mail-title {
             padding: 103px 0 0 0;
+        }
+
+        ul {
+            li {
+                margin-bottom: 10px;
+                font-weight: 700;
+
+                a {
+                    display: flex;
+                    flex-direction: row;
+
+                    &:hover {
+                        img {
+                            transform: scale(1.1);
+                        }
+
+                        p {
+                            text-decoration: underline;
+                        }
+
+                    }
+
+                    img {
+                        margin: 0px 20px 0px 15px;
+                        transition: transform 0.3s ease;
+                    }
+
+                    p {
+                        margin-top: 5px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        .footer-terminos {
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: underline;
+            margin: 25px 0;
+        }
+
+        .footer-by {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 10px;
+
+            strong {
+                font-weight: 700;
+            }
         }
     }
 
