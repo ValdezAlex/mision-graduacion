@@ -26,15 +26,6 @@
 					<img class="logo-icon" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/logo.svg" alt="Logo">
 					<span class="logo-text">Misión Graduación</span>
 				</a>
-<?php alt_custom_theme_print_menu( 'header' ); ?>
-				<button id="hamburger-menu-toggler">
-					<div class="bar"></div>
-					<div class="bar-space"></div>
-					<div class="bar"></div>
-				</button>
-				<div id="hamburger-menu-container">
-<?php alt_custom_theme_print_menu( 'hamburger' ); ?>
-				</div>
 			</div>
 		</header>
 		<main>
