@@ -169,9 +169,11 @@
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-youtube.svg" alt="Imagen 3">
                             </div>
                         </a>
-                        <div class="card">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-wsp.svg" alt="Imagen 3">
-                        </div>
+                        <a href="https://chat.whatsapp.com/LfotNoyJRW198UMGs62s6l" target="_blank">
+                            <div class="card">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-wsp.svg" alt="Imagen 3">
+                            </div>
+                        </a>
                     </div>
 
                     <button class="third-section__carousel__button prev">‹</button>
