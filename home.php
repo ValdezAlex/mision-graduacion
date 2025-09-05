@@ -221,30 +221,33 @@
 
                 <h1 class="form-section__title">Escribime con tu consulta</h1>
 
-                <form class="form-section__form" action="#" method="post" class="email-form">
+                <form class="form-section__form" action="enviar.php" method="post" class="email-form">
                     <div class="form-section__form__input-name">
                         <label for="email">
                             <h2>¿Cuál es tu nombre?</h2>
                         </label>
-                        <input class="form-section__form__input-name__name" type="email" id="email" name="email" placeholder="nombre y apellido" required>
+                        <input class="form-section__form__input-name__name" type="text" id="nombre" name="nombre" placeholder="nombre y apellido" required>
                     </div>
+
                     <div class="form-section__form__input-mail">
                         <label for="email">
                             <h2>¿Cuál es tu mail?</h2>
                         </label>
                         <input class="form-section__form__input-mail__mail" type="email" id="email" name="email" placeholder="tumail@email.com" required>
                     </div>
+
                     <div class="form-section__form__input-wsp">
                         <label for="email">
                             <h2>Whatsapp (opcional)</h2>
                         </label>
-                        <input class="form-section__form__input-wsp__wsp" type="email" id="email" name="email" placeholder="11 22334455" required>
+                        <input class="form-section__form__input-wsp__wsp" type="text" id="wasap" name="wasap" placeholder="11 22334455" required>
                     </div>
+
                     <div class="form-section__form__input-consul">
                         <label for="email">
                             <h2>¿En qué te puedo ayudar?</h2>
                         </label>
-                        <input class="form-section__form__input-consul__consul" type="email" id="email" name="email" placeholder="tu consulta..." required>
+                        <input class="form-section__form__input-consul__consul" type="text" id="mensaje" name="mensaje" placeholder="tu consulta..." required>
                     </div>
 
                     <button class="form-section__form__buttom" type="submit">
