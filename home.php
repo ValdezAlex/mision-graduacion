@@ -54,6 +54,30 @@
     <main>
 
 
+        <!-- Alerta sobre si se mando bien el formulario -->
+
+
+        <?php if (isset($_GET['status'])): ?>
+            <script>
+                <?php if ($_GET['status'] === 'ok'): ?>
+                    alert('✅ Mensaje enviado correctamente. ¡Gracias por contactarnos!');
+                <?php elseif ($_GET['status'] === 'error'): ?>
+                    alert('❌ Error al enviar el mensaje. Intenta de nuevo más tarde.');
+                <?php endif; ?>
+
+                // 🔹 Limpia la URL para que no quede ?status=ok o ?status=error
+                if (window.history.replaceState) {
+                    const url = new URL(window.location);
+                    url.searchParams.delete('status');
+                    window.history.replaceState({}, document.title, url);
+                }
+            </script>
+        <?php endif; ?>
+
+
+        <!-- Fin de la alerta-->
+
+
 
 
 
@@ -85,7 +109,7 @@
                         Dejame tu mail y enterate<br> de mas detalles
                     </h2>
 
-                    <form action="enviar.php" method="post" class="first-section__picture-section__form">
+                    <form action="/wp-content/themes/mg-theme/enviar.php" method="post" class="first-section__picture-section__form">
                         <!-- <label for="email">Suscribite:</label> -->
                         <input class="first-section__picture-section__form__input" type="email" id="email" name="email" placeholder="tumail@email.com" required>
                         <button class="first-section__picture-section__form__button" type="submit">
@@ -221,7 +245,7 @@
 
                 <h1 class="form-section__title">Escribime con tu consulta</h1>
 
-                <form class="form-section__form" action="enviar.php" method="post" class="email-form">
+                <form class="form-section__form" action="/wp-content/themes/mg-theme/enviar.php" method="post" class="email-form">
                     <div class="form-section__form__input-name">
                         <label for="email">
                             <h2>¿Cuál es tu nombre?</h2>
