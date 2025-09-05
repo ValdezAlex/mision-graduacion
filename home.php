@@ -119,7 +119,7 @@
                         </button>
                     </form>
 
-                    <img class="first-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-principalpicture.svg" alt="Imagen de portada">
+                    <img class="first-section__picture-section__picture" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/img-principalpicture.png" alt="Imagen de portada">
 
 
                 </div>
