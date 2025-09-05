@@ -156,22 +156,22 @@
                     <div class="third-section__carousel__cards">
                         <a href="https://www.instagram.com/misiongraduacion/" target="_blank">
                             <div class="card">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-ig.svg" alt="Imagen 1">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/card-ig.png" alt="Imagen 1">
                             </div>
                         </a>
                         <a href="https://www.tiktok.com/@misiongraduacion" target="_blank">
                             <div class="card">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-tiktok.svg" alt="Imagen 2">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/card-tiktok.png" alt="Imagen 2">
                             </div>
                         </a>
                         <a href="https://www.youtube.com/@misiongraduacion" target="_blank">
                             <div class="card">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-youtube.svg" alt="Imagen 3">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/card-youtube.png" alt="Imagen 3">
                             </div>
                         </a>
                         <a href="https://chat.whatsapp.com/LfotNoyJRW198UMGs62s6l" target="_blank">
                             <div class="card">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/card-wsp.svg" alt="Imagen 3">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/png/card-wasap.png" alt="Imagen 3">
                             </div>
                         </a>
                     </div>
@@ -294,7 +294,7 @@
 				<li><a href="https://www.tiktok.com/@misiongraduacion" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/svg/footer/tiktok.svg'; ?>" alt="Tik tok"><p>@misiongraduacion</p></a></li>
 				<li><a href="https://www.youtube.com/@misiongraduacion" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/svg/footer/youtube.svg'; ?>" alt="Youtube"><p>@misiongraduacion</p></a></li>
 				<li><a href="https://www.linkedin.com/in/antonelamarcaccio/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/svg/footer/linkedin.svg'; ?>" alt="Linkedin"><p>antonelamarcaccio</p></a></li>
-				<li>misiongraduacion@gmail.com</li>
+				<li>contactomisiongraduacion@gmail.com</li>
 			</ul>
 
             <p class="footer-terminos">Términos y condiciones</p>
