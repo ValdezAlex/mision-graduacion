@@ -85,7 +85,7 @@
                         Dejame tu mail y enterate<br> de mas detalles
                     </h2>
 
-                    <form action="#" method="post" class="first-section__picture-section__form">
+                    <form action="enviar.php" method="post" class="first-section__picture-section__form">
                         <!-- <label for="email">Suscribite:</label> -->
                         <input class="first-section__picture-section__form__input" type="email" id="email" name="email" placeholder="tumail@email.com" required>
                         <button class="first-section__picture-section__form__button" type="submit">
