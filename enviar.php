@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $wasap = htmlspecialchars($_POST["wasap"]);
     $mensaje = htmlspecialchars($_POST["mensaje"]);
 
-    $destinatario = "altcoop.gestionweb@gmail.com";
+    $destinatario = "contactomisiongraduacion@gmail.com";
     $asunto = "Nuevo mensaje desde el formulario de la web";
 
     $cuerpo = "Has recibido un nuevo mensaje desde tu formulario:\n\n";
